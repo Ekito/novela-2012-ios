@@ -10,4 +10,7 @@
 
 @interface NovelaViewController : UIViewController
 
+@property (nonatomic, retain) IBOutlet UIWebView    *webView;
+@property (nonatomic, retain) IBOutlet UIButton     *locationButton;
+
 @end

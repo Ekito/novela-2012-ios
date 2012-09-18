@@ -15,6 +15,7 @@
 		9B9A7D2D16087D9700D01708 /* NovelaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A7D2C16087D9700D01708 /* NovelaAppDelegate.m */; };
 		9B9A7D3016087D9700D01708 /* NovelaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A7D2F16087D9700D01708 /* NovelaViewController.m */; };
 		9B9A7D3316087D9700D01708 /* NovelaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A7D3116087D9700D01708 /* NovelaViewController.xib */; };
+		9B9A7D3A16087F6A00D01708 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9A7D3916087F6A00D01708 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		9B9A7D2E16087D9700D01708 /* NovelaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NovelaViewController.h; sourceTree = "<group>"; };
 		9B9A7D2F16087D9700D01708 /* NovelaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NovelaViewController.m; sourceTree = "<group>"; };
 		9B9A7D3216087D9700D01708 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NovelaViewController.xib; sourceTree = "<group>"; };
+		9B9A7D3916087F6A00D01708 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B9A7D3A16087F6A00D01708 /* CoreLocation.framework in Frameworks */,
 				9B9A7D1D16087D9700D01708 /* UIKit.framework in Frameworks */,
 				9B9A7D1F16087D9700D01708 /* Foundation.framework in Frameworks */,
 				9B9A7D2116087D9700D01708 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +70,7 @@
 		9B9A7D1B16087D9700D01708 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9B9A7D3916087F6A00D01708 /* CoreLocation.framework */,
 				9B9A7D1C16087D9700D01708 /* UIKit.framework */,
 				9B9A7D1E16087D9700D01708 /* Foundation.framework */,
 				9B9A7D2016087D9700D01708 /* CoreGraphics.framework */,

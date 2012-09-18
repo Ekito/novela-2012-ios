@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@class NovelaViewController;
+@interface NovelaAppDelegate : NSObject <UIApplicationDelegate> {
+    UIWindow                *window;
+    UINavigationController  *navController;
+}
 
-@interface NovelaAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
-@property (strong, nonatomic) NovelaViewController *viewController;
+@property (strong, nonatomic) IBOutlet UIWindow                 *window;
+@property (strong, nonatomic) IBOutlet UINavigationController   *navController;
 
 @end

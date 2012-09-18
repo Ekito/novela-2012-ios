@@ -12,13 +12,14 @@
 
 @implementation NovelaAppDelegate
 
+@synthesize window;
+@synthesize navController;
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.viewController = [[NovelaViewController alloc] initWithNibName:@"NovelaViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
-    [self.window makeKeyAndVisible];
+    [window addSubview:navController.view];
+    [window makeKeyAndVisible];
+    
     return YES;
 }
 
@@ -32,6 +33,9 @@
 {
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    
+    NovelaViewController *novelaViewController = (NovelaViewController *)self.navController.visibleViewController;
+    [novelaViewController switchToBackgroundMode];
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application

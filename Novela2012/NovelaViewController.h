@@ -7,10 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface NovelaViewController : UIViewController
+@interface NovelaViewController : UIViewController<CLLocationManagerDelegate> {
+@private
+    CLLocationManager *locationManager;
+}
 
 @property (nonatomic, retain) IBOutlet UIWebView    *webView;
 @property (nonatomic, retain) IBOutlet UIButton     *locationButton;
+
+@property (nonatomic, retain) CLLocationManager     *locationManager;
+
+- (void)switchToBackgroundMode;
 
 @end

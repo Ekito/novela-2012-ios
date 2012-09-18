@@ -16,6 +16,7 @@
 		9B9A7D3016087D9700D01708 /* NovelaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A7D2F16087D9700D01708 /* NovelaViewController.m */; };
 		9B9A7D3316087D9700D01708 /* NovelaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A7D3116087D9700D01708 /* NovelaViewController.xib */; };
 		9B9A7D3A16087F6A00D01708 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9A7D3916087F6A00D01708 /* CoreLocation.framework */; };
+		9B9A7D3E16089D8000D01708 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A7D3C16089D8000D01708 /* MainWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		9B9A7D2F16087D9700D01708 /* NovelaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NovelaViewController.m; sourceTree = "<group>"; };
 		9B9A7D3216087D9700D01708 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NovelaViewController.xib; sourceTree = "<group>"; };
 		9B9A7D3916087F6A00D01708 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9B9A7D3D16089D8000D01708 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				9B9A7D2E16087D9700D01708 /* NovelaViewController.h */,
 				9B9A7D2F16087D9700D01708 /* NovelaViewController.m */,
 				9B9A7D3116087D9700D01708 /* NovelaViewController.xib */,
+				9B9A7D3B16089D4D00D01708 /* Resources */,
 				9B9A7D2316087D9700D01708 /* Supporting Files */,
 			);
 			path = Novela2012;
@@ -100,6 +103,14 @@
 				9B9A7D2A16087D9700D01708 /* Novela2012-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B9A7D3B16089D4D00D01708 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9B9A7D3C16089D8000D01708 /* MainWindow.xib */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +167,7 @@
 			files = (
 				9B9A7D2716087D9700D01708 /* InfoPlist.strings in Resources */,
 				9B9A7D3316087D9700D01708 /* NovelaViewController.xib in Resources */,
+				9B9A7D3E16089D8000D01708 /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +201,14 @@
 				9B9A7D3216087D9700D01708 /* en */,
 			);
 			name = NovelaViewController.xib;
+			sourceTree = "<group>";
+		};
+		9B9A7D3C16089D8000D01708 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B9A7D3D16089D8000D01708 /* en */,
+			);
+			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

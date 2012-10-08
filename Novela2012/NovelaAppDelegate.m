@@ -7,8 +7,8 @@
 //
 
 #import "NovelaAppDelegate.h"
-
 #import "NovelaViewController.h"
+#import "NSString+UUID.h"
 
 @implementation NovelaAppDelegate
 
@@ -17,6 +17,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    if ([defaults objectForKey:UUID_USER_DEFAULTS_KEY] == nil) {
+        [defaults setObject:[NSString uuid] forKey:UUID_USER_DEFAULTS_KEY];
+        [defaults synchronize];
+    }
+
+    if ([[UINavigationBar class]respondsToSelector:@selector(appearance)]) {
+        [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"navigationbar_portrait.png"] forBarMetrics:UIBarMetricsDefault];
+        if ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )568 ) < DBL_EPSILON ) {
+            [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"navigationbar_landscape-568h.png"] forBarMetrics:UIBarMetricsLandscapePhone];
+        } else {
+            [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"navigationbar_landscape.png"] forBarMetrics:UIBarMetricsLandscapePhone];
+        }
+    }
+    
     [window addSubview:navController.view];
     [window makeKeyAndVisible];
     

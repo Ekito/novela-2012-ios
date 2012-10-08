@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  Novela2012
+
+  Created by Mélanie Bessagnet on 03/10/12.
+  Copyright (c) 2012 ekito. All rights reserved.
+*/
+
+"LOCATION_PURPOSE" = "Vos coordonnées géographiques ont pour seul but de mettre à jour votre tracé ou recentrer la carte.";

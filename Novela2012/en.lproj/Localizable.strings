@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  Novela2012
+
+  Created by Mélanie Bessagnet on 03/10/12.
+  Copyright (c) 2012 ekito. All rights reserved.
+*/
+
+"LOCATION_PURPOSE" = "We'll only use your location to update your drawing or center the map.";

@@ -11,4 +11,11 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import "NovelaWSFacade.h"
 #endif
+
+#define BASE_URL @"http://novela2012.ekito.fr"
+#define UUID_USER_DEFAULTS_KEY @"UUID"
+#define ADD_LOCATION_PATH @"/location"
+#define CENTER_MAP_PATH @"/location/center"
+#define NAVIGATION_BAR_TITLE @"510 067 420 km² de dessin"

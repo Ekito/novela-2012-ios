@@ -1,4 +1,5 @@
-# Description of the app
+# Déambulations - Novela 2012
+## Description of the app
 
 See [novela-2012-server](https://github.com/Ekito/novela-2012-server).
 

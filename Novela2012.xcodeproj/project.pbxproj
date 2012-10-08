@@ -20,6 +20,7 @@
 		9B0D952A1622D9B000DAD728 /* navigationbar_landscape-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B0D95291622D9B000DAD728 /* navigationbar_landscape-568h@2x.png */; };
 		9B0D952D1623065F00DAD728 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B0D952B1623065D00DAD728 /* about.png */; };
 		9B0D952E1623065F00DAD728 /* about@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B0D952C1623065E00DAD728 /* about@2x.png */; };
+		9B0D953416232AC200DAD728 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9B0D953316232AC100DAD728 /* README.md */; };
 		9B1C6B301615C4520071ED47 /* NovelaWSFacade.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1C6B2F1615C4520071ED47 /* NovelaWSFacade.m */; };
 		9B1C6B3F1615EF5F0071ED47 /* NovelaLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1C6B3E1615EF5F0071ED47 /* NovelaLocation.m */; };
 		9B30ACAB160A0AF700382B2D /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B30AC99160A0AF700382B2D /* AFHTTPClient.m */; };
@@ -68,6 +69,7 @@
 		9B0D95291622D9B000DAD728 /* navigationbar_landscape-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "navigationbar_landscape-568h@2x.png"; path = "Resources/navigationbar_landscape-568h@2x.png"; sourceTree = SOURCE_ROOT; };
 		9B0D952B1623065D00DAD728 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = about.png; path = Resources/about.png; sourceTree = SOURCE_ROOT; };
 		9B0D952C1623065E00DAD728 /* about@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "about@2x.png"; path = "Resources/about@2x.png"; sourceTree = SOURCE_ROOT; };
+		9B0D953316232AC100DAD728 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		9B1C6B2E1615C4520071ED47 /* NovelaWSFacade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NovelaWSFacade.h; sourceTree = "<group>"; };
 		9B1C6B2F1615C4520071ED47 /* NovelaWSFacade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NovelaWSFacade.m; sourceTree = "<group>"; };
 		9B1C6B3D1615EF5F0071ED47 /* NovelaLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NovelaLocation.h; sourceTree = "<group>"; };
@@ -208,6 +210,7 @@
 		9B9A7D0D16087D9700D01708 = {
 			isa = PBXGroup;
 			children = (
+				9B0D953316232AC100DAD728 /* README.md */,
 				9B0D95111622D26D00DAD728 /* Icon.png */,
 				9B0D950F1622D26A00DAD728 /* Icon@2x.png */,
 				9B0D94F71622CEAD00DAD728 /* iTunesArtwork */,
@@ -358,6 +361,7 @@
 				9B0D952A1622D9B000DAD728 /* navigationbar_landscape-568h@2x.png in Resources */,
 				9B0D952D1623065F00DAD728 /* about.png in Resources */,
 				9B0D952E1623065F00DAD728 /* about@2x.png in Resources */,
+				9B0D953416232AC200DAD728 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

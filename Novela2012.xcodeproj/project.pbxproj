@@ -484,10 +484,12 @@
 		9B9A7D3716087D9700D01708 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mélanie Bessagnet (6A27BG5T85)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Novela2012/Novela2012-Prefix.pch";
 				INFOPLIST_FILE = "Novela2012/Novela2012-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "43D23139-348F-4FCB-9A29-5BE7D86D6D8F";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;

@@ -37,7 +37,7 @@
     if (![currentLanguage isEqualToString:@"fr"]) {
         currentLanguage = @"en";
     }
-    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@/about/mobile/%@", BASE_URL, currentLanguage]]]];
+    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@/about/mobile?=%@", BASE_URL, currentLanguage]]]];
     
     UIButton *backButton = [[UIButton alloc] initWithFrame:CGRectMake(0.0, 0.0, 20.0, 20.0)];
     [backButton setImage:[UIImage imageNamed:@"backArrow.png"] forState:UIControlStateNormal];
